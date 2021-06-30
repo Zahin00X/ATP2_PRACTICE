@@ -26,5 +26,40 @@ namespace _1st_Lecture.Controllers
 
             return View();
         }
+
+        public ActionResult Demo()
+        {
+            ViewBag.Message = "Your demo page.";
+
+            return View();  
+        }
+
+        public ActionResult Projects()
+        {
+            ViewBag.Message = "Your project page.";
+
+            return View();
+        }
+
+        public ActionResult Personal()
+        {
+            ViewBag.Message = "Your Persoanl page.";
+
+            return View();
+        }
+
+        public ActionResult Education()
+        {
+            ViewBag.Message = "Your Education page.";
+
+            return View();
+        }
+
+        public ActionResult References()
+        {
+            ViewBag.Message = "Your References page.";
+
+            return View();
+        }
     }
 }

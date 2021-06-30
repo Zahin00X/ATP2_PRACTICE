@@ -8,7 +8,7 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+   <!-- <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,15 +23,21 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li><a href="/Home/Projects">My Projects</a></li>
                 </ul>
             </div>
         </div>
-    </div>
+    </div>-->
     <div class="container body-content">
         @RenderBody()
+        <a class="btn btn-default" href="/Home/Index">Home</a>
+        <a class="btn btn-default" href="/Home/Personal">Personal Info</a>
+        <a class="btn btn-default" href="/Home/Education">Education</a>
+        <a class="btn btn default" href="https://github.com/zahin00x">Github</a>
+        <a class="btn btn default" href="https://www.linkedin.com/in/zahin-masroor-bhuiyan-979a05172/">References</a>
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <!--  <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>-->
         </footer>
     </div>
 
